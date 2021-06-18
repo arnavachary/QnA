@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(172, 171, 171);
+}
+h1 {
+  text-align: center;
+  margin-top: 20vh !important;
+  font-style: italic;
+  color: goldenrod;
+}
+
+.content {
+  width: 35vw;
+  background-color: white;
+  min-height: 10vh;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 10vh auto;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question > i {
+  color: goldenrod;
+  border: 1px solid goldenrod;
+  height: 18px;
+  width: 18px;
+  text-align: center;
+}
